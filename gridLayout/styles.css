@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 10px 60px;
+  background-color: #f8f9fa;
+}
+
+.left-menu a,
+.right-menu a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 20px;
+}
+
+.right-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right-menu a {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.right-menu img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}

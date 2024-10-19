@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px; /* Điều chỉnh khoảng cách hai bên */
+  background-color: #f8f9fa;
+}
+
+.flex-menu .left-menu a,
+.flex-menu .right-menu a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.flex-menu .right-menu img {
+  width: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
